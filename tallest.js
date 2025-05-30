@@ -32,3 +32,20 @@
 
 // const min =getMin(minimum);
 // console.log(min);
+
+
+function woodQuantity(chairQuantity,tableQuantity,badQuantity){
+    const perChairQuantity = 3;
+    const perTableQuantity = 10;
+    const perBadQuantity = 50;
+
+    const chairTotalWood = chairQuantity*perChairQuantity;
+    const tableTotalWood =tableQuantity*perTableQuantity;
+    const badTotalQuantity =badQuantity*perBadQuantity;
+
+    const totalWood = perChairQuantity+perTableQuantity+perBadQuantity;
+    return totalWood;
+}
+
+const wood =woodQuantity(0,0,1);
+console.log('wood needed',wood);
