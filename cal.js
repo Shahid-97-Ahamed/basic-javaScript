@@ -38,4 +38,4 @@ function calculatro(a,b,operation){
 }
 
 const result=calculatro(5,7,'divide');
-console.log(result);
+// console.log(result);
